@@ -12,15 +12,21 @@
 */
 
 const average = (array) => {
+  // Variáveis
   let result;
   let sum = 0;
-  if (array.length > 0) {
-    for (element of array) {
-      if (typeof element !== "number") return result;
-      sum += element;
-    }
-    result = Math.round(sum / array.length);
+  // Testa se o array está vazio
+  if (!array.length > 0) return result;
+  // Testa se todos os valores são do tipo number
+  for (let index = 0; index < array.length; index += 1) {
+    if (typeof array[index] !== 'number') return result;
   }
+  // Calcula a média
+  for (let index = 0; index < array.length; index += 1) {
+    sum += array[index];
+  }
+  result = Math.round(sum / array.length);
+  // Retorna o resultado
   return result;
 };
 
