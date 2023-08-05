@@ -1,4 +1,4 @@
-# :construction: README em construção ! :construction:
+# JS Unit Tests
 
 Este projeto envolveu criação de funções e testes para essas funções utilizando jest:
 
