@@ -1,10 +1,7 @@
 # :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+
+Este projeto envolveu criação de funções e testes para essas funções utilizando jest:
+
+Escrevi testes unitários utilizando o módulo Jest do NodeJS para verificar o correto funcionamento das funções;
+Escrevi funções de forma que elas atendam a testes já implementados;
+Escrevi testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
